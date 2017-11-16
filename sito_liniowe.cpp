@@ -9,6 +9,7 @@ using namespace std;
 
 int main()
 {
+	int a,b,c;
   unsigned int i,n,p,q,x;
   bool * S;
 
