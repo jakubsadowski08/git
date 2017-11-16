@@ -9,13 +9,13 @@ using namespace std;
 
 int main()
 {
-  unsigned int n,lp,p,d;
+  unsigned int n,lp,p,d; // zmienne
   bool t;
 
   cin >> n;
   lp = 0;
   p  = 2;
-  while(lp < n)
+  while(lp < n)	//glowna petla
   {
     t = true;
     for(d = 2; d < p; d++)
