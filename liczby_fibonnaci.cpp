@@ -27,6 +27,10 @@ void InicjujMT(unsigned int x0)
     MT[i] = x;
   }
 }
+int wypisz(int b, int c)
+{
+  (b>=c) ? b : c; 
+}
 
 // Inicjuje MT wartoœciami losowymi
 //---------------------------------
