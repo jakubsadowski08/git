@@ -1,8 +1,4 @@
-// Test pierwszoœci Fermata
-// Data   : 5.04.2008
-// (C)2012 mgr Jerzy Wa³aszek
-//----------------------------
-
+#klasa
 program prg;
 
 // 64 bitowy generator pseudolosowy
