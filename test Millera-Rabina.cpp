@@ -2,7 +2,7 @@
 // Data   : 6.04.2008
 // (C)2012 mgr Jerzy Wa³aszek
 //----------------------------
-
+// komentarsz
 #include <iostream>
 #include <cstdlib>
 #include <time.h>
