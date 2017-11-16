@@ -2,7 +2,7 @@
 // Data   : 16.04.2008
 // (C)2012 mgr Jerzy Wa³aszek
 //---------------------------
-
+float tablica[10];
 program prg;
 
 uses SysUtils,DateUtils;
