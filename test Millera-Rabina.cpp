@@ -40,6 +40,14 @@ ulong MnozModulo(ulong a, ulong b, ulong n)
   }
   return w;
 }
+long silnia(ulong a)
+{
+  for(;;)
+  {
+	  break;
+  }
+  return a;
+}
 
 // Funkcja oblicza a^e mod n
 //--------------------------
