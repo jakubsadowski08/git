@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+#include<ctime.h>
 #define TRUE 1
 #define FALSE 0
 #define N 4
+//Jakub Sadowski
 time_t tt;
 char tablica[N*N];
 int czy_unikatowa(char *tablica, int liczba)
