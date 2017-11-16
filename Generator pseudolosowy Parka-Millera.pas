@@ -23,6 +23,18 @@ begin
   x0 := xlo;
   PM_RNG := xlo;
 end;
+function RNG : longword;
+var
+  xlo,xhi : longword;
+begin
+  xlo := 16807 * (x0 and $ffff);
+  xhi := 16807 * (x0 shr 16);
+  inc(xlo,(xhi and $7fff) shl 16);
+  inc(xlo,xhi shr 15);
+  if xlo > $7fffffff then dec(xlo,$7fffffff);
+  x0 := xlo;
+  PM_RNG := xlo;
+end;
 
 // Ustawia losowe x0
 //------------------
