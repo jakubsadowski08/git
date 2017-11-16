@@ -72,7 +72,7 @@ end;
 var
   a,b,i,n : longint;
 begin
-  UprzypadkowijMT;
+  UprzypadkowijMT;// Glowne wywolanie
   readln(a,b,n);
   for i := 1 to n do write(a + (MersenneTwister mod (b - a + 1)),' ');
   writeln;
