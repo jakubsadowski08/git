@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include<conio.h>
 using namespace std;
 
 int main()
@@ -26,5 +26,6 @@ int main()
     cout << x << endl;
   }
   else cout << "BRAK\n";
+  getchar();
   return 0;
 } 
