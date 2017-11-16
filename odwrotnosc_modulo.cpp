@@ -1,5 +1,5 @@
 #include <iostream>
-
+tablica[10];
 using namespace std;
 
 int main()
